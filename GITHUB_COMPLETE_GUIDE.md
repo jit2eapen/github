@@ -104,11 +104,11 @@ git --version
 ### Configure identity (do once on every new PC)
 
 ```bash
-git config --global user.name "jit2eapen"
+git config --global user.name "xyz"
 ```
 
 ```bash
-git config --global user.email "jit2vakathanam@gmail.com"
+git config --global user.email "jxyz@gmail.com"
 ```
 
 ### Save token so you never type it again
@@ -126,8 +126,8 @@ git config --global user.email
 
 Expected:
 ```
-jit2eapen
-jit2vakathanam@gmail.com
+xyz
+xyz.com
 ```
 
 ---
@@ -180,7 +180,7 @@ git push -u origin main
 
 When asked:
 ```
-Username: jit2eapen
+Username: xyz
 Password: ghp_yourtoken
 ```
 
@@ -213,7 +213,7 @@ git clone https://github.com/jit2eapen/EMBEDDED.git
 
 When asked:
 ```
-Username: jit2eapen
+Username: xyz
 Password: ghp_yourtoken
 ```
 
